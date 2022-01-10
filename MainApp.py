@@ -34,7 +34,7 @@ def main():
     menu = ["Home","Login","SignUp"]
     choice = st.sidebar.selectbox("Menu",menu)
     if choice == "Home":
-        original_title="<p style='text-align: center;'>In this corporate world to deal with tedious work of higher numbers of tickets and bugs it is difficult task web and saas companies to manually work on it. So to overcome it we have developed web based application which automatically separates ticket and bug with the help of different machine learning techniques.</p>
+        original_title="<p style='text-align: center;'>In this corporate world to deal with tedious work of higher numbers of tickets and bugs it is difficult task web and saas companies to manually work on it. So to overcome it we have developed web based application which automatically separates ticket and bug with the help of different machine learning techniques.</p>"
         image=Image.open('C:/Users/91875/Desktop/WebApp/flow.jpg')
         st.image(image)
         #st.image(np.array([cv2.imread("flow.jpg")]), channels="BGR")
