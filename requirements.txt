@@ -1,6 +1,6 @@
 numpy
 pandas
 streamlit
-nltk
 pillow
 scikit-learn
+nltk
